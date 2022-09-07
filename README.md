@@ -2,5 +2,5 @@
 docker build -t exam2 .
 
 # Commande pour lancer le container : 
-docker run -ti --rm exam2
+docker run -ti --rm -p 5000:80 exam2
 
